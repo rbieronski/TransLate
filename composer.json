@@ -1,0 +1,29 @@
+{
+    "name": "anguis/translate",
+    "description": "Helper script for translations website.",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "mikey179/vfsstream": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anguis\\TransLate\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Anguis\\TransLate\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafał B.",
+            "email": "bieronski@yahoo.pl"
+        }
+    ],
+    "require": {
+        "league/climate": "^3.7"
+    }
+}

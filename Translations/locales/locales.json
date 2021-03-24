@@ -1,0 +1,12 @@
+{
+  "pl": {
+    "app": {
+      "title": "Moja wspaniałła aplikacja!"
+    }
+  },
+  "en": {
+    "app": {
+      "title": "My great app!"
+    }
+  }
+}
