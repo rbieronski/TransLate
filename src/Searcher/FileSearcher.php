@@ -40,7 +40,7 @@ class FileSearcher implements SearcherInterface
         }
         /* filter results */
         if (!is_null($this->filterInterface)) {
-            $this->filterInterface->filter($tree);
+            $tree = $this->filterInterface->filter($tree);
         }
         return $tree;
     }
